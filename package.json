@@ -1,12 +1,13 @@
 {
   "name": "prct08-filesystem-funko-app-alu0101349824",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "Comandos.js",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc-watch --onSuccess",
+    "start": "npm run build && \"node dist/ejercicio-1/Comandos.js\"",
     "doc": "typedoc --out ./docs --customCss custom-styles.css",
     "test": "vitest run --watch",
-    "coverage": "vitest run --watch --coverage --coverage.exclude=src/index.ts",
+    "coverage": "vitest run --watch --coverage --coverage.exclude=src/Comandos.ts --coverage.exclude=src/index.ts",
     "prettier": "prettier --write .",
     "lint": "eslint --fix ."
   },
@@ -15,6 +16,12 @@
   "author": "Laura Álvarez Zamora",
   "license": "ISC",
   "description": "Práctica 8 de la asignatura DSI en el curso 2024/2025",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.5.0",
+    "lowdb": "^7.0.1",
+    "yargs": "^17.7.2"
+  },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
     "@types/node": "^22.13.11",

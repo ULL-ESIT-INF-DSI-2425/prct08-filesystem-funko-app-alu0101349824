@@ -1,0 +1,24 @@
+node dist/ejercicio-1/Comandos.js agregar \
+  --usuario "miUsuario" \
+  --id 1 \
+  --nombre "Funko1" \
+  --descripcion "Mi primer Funko" \
+  --tipo "Pop!" \
+  --genero "Animación" \
+  --franquicia "Ejemplo" \
+  --numero 100 \
+  --exclusivo false \
+  --caracteristicas "Brilla en la oscuridad" \
+  --valor 50
+
+
+node dist/ejercicio-1/Comandos.js listar --usuario "miUsuario"
+
+node dist/ejercicio-1/Comandos.js leer --usuario "miUsuario" --id 1
+
+node dist/ejercicio-1/Comandos.js eliminar --usuario "miUsuario" --id 1
+
+node dist/ejercicio-1/Comandos.js actualizar \
+  --usuario "miUsuario" \
+  --id 1 \
+  --nombre "Funko1 Renovado" \

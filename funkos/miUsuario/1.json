@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "nombre": "Funko1",
+  "descripcion": "Mi primer Funko",
+  "tipo": "Pop!",
+  "genero": "Animación",
+  "franquicia": "Ejemplo",
+  "numero": 100,
+  "exclusivo": false,
+  "caracteristicasEspeciales": "Brilla en la oscuridad",
+  "valorMercado": 50
+}

@@ -2,5 +2,7 @@
   "entryPoints": [
     "src/**/*.ts"
   ],
-  "out": "./docs"
+  "out": "./docs",
+  "customCss": "./custom-styles.css",
+  "name": "prct08-filesystem-funko-app-alu0101349824"
 }
