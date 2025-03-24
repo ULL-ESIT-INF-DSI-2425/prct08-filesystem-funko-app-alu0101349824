@@ -1,0 +1,37 @@
+[
+  {
+    "ubicacion": "Madrid",
+    "temperatura": 18.5,
+    "humedad": 65,
+    "precipitacion": 0,
+    "viento_kmh": 12
+  },
+  {
+    "ubicacion": "Barcelona",
+    "temperatura": 17.2,
+    "humedad": 70,
+    "precipitacion": 2.3,
+    "viento_kmh": 15
+  },
+  {
+    "ubicacion": "Madrid",
+    "temperatura": 20.1,
+    "humedad": 60,
+    "precipitacion": 0,
+    "viento_kmh": 10
+  },
+  {
+    "ubicacion": "Barcelona",
+    "temperatura": 16.8,
+    "humedad": 75,
+    "precipitacion": 5.0,
+    "viento_kmh": 20
+  },
+  {
+    "ubicacion": "Sevilla",
+    "temperatura": 22.3,
+    "humedad": 55,
+    "precipitacion": 0,
+    "viento_kmh": 8
+  }
+]
